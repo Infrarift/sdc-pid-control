@@ -10,6 +10,11 @@ public:
   double i_error;
   double d_error;
 
+  bool has_prev_cte = false;
+  double prev_cte;
+  double int_cte;
+  double prev_steer;
+
   /*
   * Coefficients
   */ 
